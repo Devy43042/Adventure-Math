@@ -14,9 +14,7 @@
     <center>
         <canvas></canvas>
         <br />
-        <script>
-            ci.fullscreen()
-        </script>
+        <button onclick="ci.fullscreen()" style="visibility: hidden;">Fullscreen</button>
     </center>
     <script>
         Dos(document.getElementsByTagName("canvas")[0], { autolock: true }).ready((fs, main) => {
