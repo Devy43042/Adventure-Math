@@ -17,7 +17,7 @@
     </center>
     <script>
         Dos(document.getElementsByTagName("canvas")[0], { autolock: true }).ready((fs, main) => {
-            fs.extract("AMATH.ZIP").then(() => {
+            fs.extract("AMATH.zip").then(() => {
                 main(["-c", "AMATH"]).then((ci) => {
                     window.ci = ci;
                     document.getElementsByTagName("button")[0].style.visibility = 'initial';
